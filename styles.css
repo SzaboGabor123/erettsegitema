@@ -1,0 +1,25 @@
+body
+{
+	background-image: url("background.png");
+	font-family: monospace;
+	font-size:20px;
+}
+
+#tetelek
+{
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	font-family: lato;
+	background-color: #43ab92;
+	color: #fff;
+	border: 0;
+	margin-top: 20px;
+	box-shadow: 2px 2px lightgrey;
+}
+
+h1
+{
+	text-align: center;
+	font-family: Courier;
+}
