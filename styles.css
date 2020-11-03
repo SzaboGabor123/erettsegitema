@@ -8,7 +8,7 @@ body
 
 #gombok
 {
-	width: 500px;
+	width: 350px;;
 	height: 50px;
 	font-size: 20px;
 	font-family: lato;
@@ -17,7 +17,7 @@ body
 	border: 0;
 	margin-top: 20px;
 	box-shadow: 2px 2px lightgrey;
-    margin: 10px 5px 10px 5px;
+    margin: 10px 10px 10px 15px;
     align-items: center;
     text-align: center;
     text-decoration: none;
@@ -30,38 +30,59 @@ h1
 	font-family: Courier;
 }
 
-#pirosgomb
-{
-	width: 200px;
-	height: 50px;
-	font-size: 20px;
-	font-family: lato;
-	background-color: #DD120D;
-	color: #fff;
-	border: 0;
-	margin-top: 20px;
-	box-shadow: 2px 2px lightgrey;
-}
-
-#fejlec
-{
-    display: grid;
-    grid-template-columns: auto;
-	height: 100px;
-	align-items: center;
-	background-repeat: no-repeat;
-	background-size: center;
-	background-position: center;
-    margin-bottom: 30px;
-}
 
 #menu
 {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 #gombok:hover
 {
     background-color: cornflowerblue;
+    text-decoration: none;
+}
+
+#hosszuszoveg
+{
+	text-align: justify;
+    font-family: monospace;
+	font-size:20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+#gombszurke
+{
+    width: 500px;
+	height: 50px;
+	font-size: 20px;
+	font-family: lato;
+	background-color: #837B7B;
+	color: #fff;
+	border: 0;
+	margin-top: 20px;
+	box-shadow: 2px 2px lightgrey;
+    margin: 10px 5px 10px 5px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+#gombszurke:hover
+{
+     background-color: darkkhaki;
+     text-decoration: none;
+}
+
+#cim
+{
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 70px;
 }
