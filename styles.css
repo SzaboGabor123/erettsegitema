@@ -164,3 +164,71 @@ tr, th, td {
 {
     font-family: Pacifico;
 }
+
+#content
+{
+    width: 400px;
+    background: #fff;
+    padding: 20px;
+    font-family: calibri;
+    font-size: 18px;
+    color: #444;
+    margin: 0 auto;
+    max-height: 270px;
+    overflow: hidden;
+    /* Set transitions up. */
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max—height 0.7s;
+}
+
+#content.open {
+    max-height: 1000px;
+    /* Set transitions up. */
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+#show-more {
+    background: #1594e5;
+    color: #fff;
+    font-family: calibri;
+    display: block;
+    width: 140px;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+#gombutmutato
+{
+    width: 250px;
+	height: 50px;
+	font-size: 20px;
+	font-family: lato;
+	background-color: darkred;
+	color:#fff;
+	border: 0;
+	margin-top: 20px;
+	box-shadow: 2px 2px lightgrey;
+    margin: 10px 5px 10px 5px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+#gombutmutato:hover
+{
+     background-color: firebrick;
+     text-decoration: none;
+}
+
+h5
+{
+    font-family: Blippo;
+}
