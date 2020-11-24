@@ -18,12 +18,62 @@
              <a href="https://redmenta.com/?solve&ks_id=335149667" target="_blank"><button id="gombok">Teszt</button></a>
              <a href="irasbeli.html"><button id="gombok">Írásbeli vizsga</button></a>
         </nav>
-        1. feladat:<input type="number" min="0" max="3" name="feladat1"><br>
-        2. feladat:<input type="number" min="0" max="6" name="feladat2"><br>
-        3. feladat:<input type="number" min="0" max="9" name="feladat3"><br>
-        <div>
+<div id="wrapper">
+    <header>
+            <h1>Értékelőlap</h1>
+    </header>
+    <main><p class="ertekelo">
+        <br><br>
+        <form id = "ertekelolap" name = "ertekelolap" method = "post">
+        <ul>
+            <li>1. Feladat<br>
+                <p><label for="a"></label>
+                <select id="a" name ="a">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                </p>
+                
+            </li>
+            <li>2. Feladat<br>
+                <p><label for="b"></label>
+                    <select id="b" name ="b">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                    </p>
+                
+            </li>
+            <li>3. Feladat<br>
+                <p><label for="c"></label>
+                    <select id="c" name ="c">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                    </p>
 <input type="button" value="Kiértékel" onclick="kiertekeles()">
-</div>
+            </li>
+            </ul>
+                        <p id="eredmeny"></p>
+<p id="jegy"></p>
+        </form>
+    </main>
+        </div>
                     <script src="js1.js"></script>
 	</body>
 </html>
